@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HealthHub"
+        tools:targetApi="31">
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".AllorderDetailActivity" />
+        <activity android:name=".AppointmentActivity" />
+        <activity android:name=".buymedicineActivity" />
+        <activity android:name=".BuymedicinedDeatailsActivity" />
+        <activity android:name=".CartMedicineActivity" />
+        <activity android:name=".DoctorsDetailActivity" />
+        <activity android:name=".FindDoctorsActivity" />
+        <activity android:name=".HealthArticleActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".itemsdeatailActivity" />
+        <activity android:name=".labTestDetailsActivity" />
+        <activity android:name=".labTestPageActivity" />
+        <activity android:name=".MedicineOrderActivity" />
+        <activity android:name=".PlaceOrderActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
